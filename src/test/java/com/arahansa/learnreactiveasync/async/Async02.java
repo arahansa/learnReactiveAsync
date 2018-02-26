@@ -7,7 +7,7 @@ import java.util.Map;
 
 // https://www.youtube.com/watch?v=5KttCnoWLhs
 
-public class AsyncTestTwo {
+public class Async02 {
 
     static class Result{
         String s;
@@ -37,7 +37,7 @@ public class AsyncTestTwo {
         System.out.println(map.get("API"));
     }
 
-    private Result getApi() {
+    public static Result getApi() {
         return new Result("s");
     }
 }

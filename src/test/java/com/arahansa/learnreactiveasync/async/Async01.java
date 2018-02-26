@@ -7,7 +7,7 @@ import java.util.Map;
 
 // https://www.youtube.com/watch?v=5KttCnoWLhs
 
-public class AsyncTestOne {
+public class Async01 {
 
     static class Result{
         String s;
