@@ -9,6 +9,8 @@
 .project
 .settings
 .springBeans
+.class
+/out/
 
 ### IntelliJ IDEA ###
 .idea
@@ -23,3 +25,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+*.class
