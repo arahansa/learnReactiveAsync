@@ -24,6 +24,7 @@ public class Async03_Future {
         Async02.Result result = future.get(); // block 해제
         System.out.println(result);
         es.shutdown();
+        // https://www.youtube.com/watch?v=5KttCnoWLhs 을 30분부터 다시 보기로 한다
     }
 
 }
