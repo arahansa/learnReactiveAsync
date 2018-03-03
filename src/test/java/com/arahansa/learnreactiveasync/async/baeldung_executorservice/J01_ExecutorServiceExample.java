@@ -124,5 +124,7 @@ public class J01_ExecutorServiceExample {
         // 독립적인 태스크를 실행하는데 좋다. 트랜잭션이나 scheme 에 따른 요청을 하는 것같은..
 
 
+
+
     }
 }
