@@ -303,8 +303,7 @@ public class J01_ExecutorSample {
     @Test
     public void listeningDecorators() throws Exception{
         ExecutorService executorService = Executors.newCachedThreadPool();
-        ListeningExecutorService listeningExecutorService =
-                MoreExecutors.listeningDecorator(executorService);
+        ListeningExecutorService listeningExecutorService = MoreExecutors.listeningDecorator(executorService);
 
         ListenableFuture<String> future1 = listeningExecutorService.submit(() -> "Hello");
         ListenableFuture<String> future2 = listeningExecutorService.submit(() -> "World");
